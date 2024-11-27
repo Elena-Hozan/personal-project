@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Tales</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="index.js"></script>
+</head>
+<body>
+    <nav>
+        <h1>Travel Tales</h1>
+        <ul class="navigation-items">
+            <li class="navigation-item"><a href="#about-me">About me</a></li>
+            <li class="navigation-item"><a href="#beach-destinations">Beach Destinations</a></li>
+            <li class="navigation-item"><a href="#city-breaks">City Breaks</a></li>
+            <li class="navigation-item"><a href="/contact.html">Contact</a></li>
+    </nav>
+    <main>
+        <section id="about-me">
+          <div class="about-me-container">
+            <div class="about-me-text-container">
+              <h2>About me</h2>
+              <p>
+                Hi! I'm Elena, I am learing how to code and 
+                I want to take advantage of this oportunity to share with you my travel tales!
+              </p>
+              <p>
+                I love a sunny destinations as much as historical city so if you
+                 share the same passion come with me on the journey.
+              </p>
+              <p>
+                I live in London, an amazing city, but unfortunately not so amazing weather so 
+                I chase the sun mostely around Europe.
+              </p>
+              
+            </div>
+            <img
+              src="img/IMG_20190702_180209 (2).jpg"
+              alt="A photo Elena"
+              class="portrait"
+            />
+          </div>
+          
+        </section>
+        <button type="button" onclick="revealMessage()">Click here</button>
+        <div id="hiddenMessage" style="display:none">
+          <p> My next adventure is in  days!</p>
+            <button type="button" id="countDownButton"onclick="countDown">17</button> 
+             days!</p>
+        </div>
+        <section id="beach-destinations">
+         <h2> Beach Destinations</h2>
+            <div class="beach-destination-container">
+            <div class="beach-destination-text-container">
+                <h3>Balearic Islands</h3>
+                <p>It can be a biased oppinion but this charming islands have my heart. 
+                They are special for personal reasons but also they are a pice of heaven on earth.
+                There is an islad that suits everybody</p>
+                <p>If you want to party then Ibiza is the right one for you.
+                A quite and serene one is Menorca, perfect one for families.
+                And a bit of bouth is Mallorca on diffrent part of the island you can party
+                 where on the opposite side you can sit back and relax.
+                </p>
+
+            </div>
+<img src="img/IMG_20190630_165852.jpg"
+alt="Elena swiming"
+class="beach-destinations" />
+            </div>
+            <div class="beach-destinations">
+              <div class="beach-destination-text-container">
+                <h3>Croatia</h3>
+                <p class="beach-destinations">
+                  If your Mediterranean fantasies feature balmy days by sapphire waters in the shade of ancient walled towns,
+                   Croatia is the place to turn them into reality..
+                </p>
+                </div>
+              <img
+                src="img/20210802_121556.jpg"
+                alt="beautiful beach with purple umbrelas"
+                class="city-breaks-image"
+              />
+              
+            </div>
+
+<section id="city-breaks">
+  <h2>City-breaks</h2>
+  <details class="city-breaks">
+    <summary class="city-breaks-title">
+      <h3>Magical Marrakech</h3>
+    </summary>
+    
+    <img
+      src="img/History-of-El-Badi-Palace-2.jpg" height="250px"
+      alt="El Badi Palace a stunning example of Maroccan architecture and culture!"
+      class="project-image"
+    />
+    <p class="city-breaks">
+      EL Badi Palace in Marrakech is a stunning example of Moroccan architecture and culture.
+       Built in the 16th century, this palace is a testament to the grandeur of the Saadian Dynasty and the beauty of Moroccan art and design.
+    </p>
+    </details>
+    <details class="city-breaks">
+      <summary class="city-breaks-title">
+        <h3>Rome</h3>
+      </summary>
+      <img
+        src="img/20221008_200346.jpg"
+        alt="Colloseum at night"
+        class="city-breaks-image"
+      />
+      <p class="city-breaks-description">
+        Rome is one of the most iconic and most-traveled cities in Europe, with a long history to match.
+        Rome is also a foodie's heaven, from the world-class restaurants to casual trattorias and takeaway pizzas. 
+      </p>
+    </details>
+</section>        
+    <script src="index.js"></script>
+</body>
+</html>

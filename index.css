@@ -1,0 +1,68 @@
+.portrait {
+    width: 300px;
+    border-radius: var(--border-radius);
+    flex-shrink: 0;
+  }
+  .beach-destinations {
+    width: 300px;
+    border-radius: var(--border-radius);
+  }
+  
+  .city-breaks-image {
+    width: 300px;
+    margin: 0 auto;
+  }
+  html,
+body {
+  height: 100%;
+  color: var(--font-color);
+  background-color: azure;
+}
+h2 {
+  font-family: "Proza Libre", sans-serif;
+  margin: 0;
+  margin-bottom: var(--spacing-2);
+}
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0 var(--spacing-3);
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: var(--spacing-3) 3;
+}
+.navigation-items {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  align-items: right;
+  margin: 0;
+  margin-left: auto;
+}
+li {
+  float: left;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #E0B0FF;
+}
+.navigation-item {
+  margin: var(--spacing-10);
+}
+#logo {
+  margin: 0;
+}
+@media only screen and (max-width: 600px) {
+  .about-me-container {
+    flex-direction: column;
+  }
+}
